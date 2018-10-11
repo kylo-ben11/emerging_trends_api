@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+/*Global Elements*/
+	@font-face {
+		font-family: mask;
+		src:url(../fonts/mask.ttf);
+	}
+	#mypanel {
+		background-color: black;
+	}
+	footer {
+		height: 100px;
+		background-color: rgba(0,0,0,1.0);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	footer h4 {
+		color: #DF1917;
+		text-align: center;
+	}
+/*Page Elements*/
+	#header {
+		background-image: url(../images/marvel-banner.jpg);
+		position: fixed;
+		left: 0;
+		top: 0;
+		min-width: 100%;
+		height: 100px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	main {
+		background-image: url(../images/marvel-background-optimized.jpg);
+		background-repeat: repeat-y;
+		height: 800px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+	}
+	section {
+		background-color: rgba(223,25,23,0.80);
+		position: relative;
+		top:25%;
+	}
+	a.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-btn-inherit.ui-icon-plus {
+		background-color: rgba(223,25,23,0.40)!important;	
+	}
+/*Headings*/
+	h1 {
+		background-color: rgba(223,25,23,1.0);
+		color: black;
+		font-variant: small-caps;
+		font-size: 36px;
+		font-family: mask, Lato, sans-serif;
+		font-stretch: 100%;
+		font-weight: 400;
+		letter-spacing: 6px;
+		text-align: center;
+		padding-left: 10px;
+		line-height: 35px;
+		position: absolute;
+		width: 100%;
+		top:10.5%;
+		}
+	h2 {
+		font-family: mask, Lato, sans-serif;
+		color: black;
+		font-size: 24px;
+		letter-spacing: 4px;
+		font-variant: small-caps;
+		position: relative;
+		text-align: center;
+	}
+	h4 {
+		font-family: mask, Lato, sans-serif;
+		color: black;
+		font-size: 18px;
+		letter-spacing: 4px;
+		font-variant: small-caps;
+		position: relative;
+		margin-left: 10px;
+	
+	}
+/*Other*/
+.ui-btn {
+	font-family: mask, sans-serif;
+	font-size: 24px !important;
+	background-color: #df1917 !important;
+}
