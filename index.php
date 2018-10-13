@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -207,10 +207,10 @@
 		<form action="" method="post">
 
 	<label for="name">Name:</label>
-	<input name="name" required><br />
+	<input name="name" aria-label="name" required><br />
 
 	<label for="email">Email:</label>
-	<input name="email" type="email" required><br />
+	<input name="email" type="email" aria-label="email" required><br />
 <div class="feed_container">
 	<div class="g-recaptcha" data-sitekey="6LdJ4nQUAAAAAKvufoi2hkgrtIvPdkCi3ZQYfad1"></div>
 	</div>
